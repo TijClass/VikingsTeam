@@ -1,0 +1,13 @@
+{
+    "name": "b3ns44d/vikingsteam",
+    "description": "Booking app using PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "B3ns44d",
+            "email": "abdsamad23bnsaad@gmail.com"
+        }
+    ],
+    "require": {}
+}

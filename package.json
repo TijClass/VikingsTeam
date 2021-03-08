@@ -1,0 +1,21 @@
+{
+  "name": "vikingsteam",
+  "version": "1.0.0",
+  "description": "Booking app using PHP",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TijClass/VikingsTeam.git"
+  },
+  "keywords": [
+    "Booking",
+    "app"
+  ],
+  "author": "B3ns44d",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TijClass/VikingsTeam/issues"
+  },
+  "homepage": "https://github.com/TijClass/VikingsTeam#readme"
+}
