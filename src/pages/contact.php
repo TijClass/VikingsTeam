@@ -1,1 +1,2 @@
-<!-- contact us page -->
+<?php
+include '../components/contact_us.php';
