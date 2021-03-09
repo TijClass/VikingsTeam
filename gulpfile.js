@@ -5,7 +5,7 @@ const autoprefixer = require("gulp-autoprefixer");
 const postcss = require("gulp-postcss");
 const tailwindcss = require("tailwindcss");
 const cleanCSS = require("gulp-clean-css");
-const stripCssComments = require('gulp-strip-css-comments');
+const stripCssComments = require("gulp-strip-css-comments");
 
 // Copy All php files
 gulp.task("php", function () {
@@ -17,12 +17,11 @@ gulp.task("php", function () {
   });
 });
 
-
-// TODO: i need to install 
+// TODO: i need to install
 // Optimize Images
 
 // convert tailwindcss to normal css, autoprefix it, clean it
-gulp.task("tailwindcss", function () {
+gulp.task("styles", function () {
   return new Promise(function (resolve, reject) {
     gulp
       .src("./src/styles/*.css")
@@ -50,11 +49,13 @@ gulp.task("scripts", function () {
 
 gulp.task("watch", function () {
   return new Promise(function (resolve, reject) {
-    gulp.watch("./src/styles/*.css"), gulp.series("tailwindcss");
-    gulp.watch("./src/assets/js/*.js", gulp.series("scripts"));
+    gulp.watch("./src/styles/*.css"), gulp.parallel("styles");
+    gulp.watch("./src/assets/js/*.js", gulp.parallel("scripts"));
     gulp.watch("./src/components/*.php", gulp.series("php"));
     gulp.watch("./src/pages/*.php", gulp.series("php"));
     gulp.watch("./src/*.php", gulp.series("php"));
     resolve();
   });
 });
+
+gulp.task("default", gulp.parallel("styles", "scripts", "php", "watch"));
