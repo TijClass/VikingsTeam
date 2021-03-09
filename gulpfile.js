@@ -47,7 +47,6 @@ gulp.task("scripts", function () {
     resolve();
   });
 });
-gulp.task("default", ["php", "optImg", "tailwindcss", "scripts", "watch"]);
 
 gulp.task("watch", function () {
   return new Promise(function (resolve, reject) {
