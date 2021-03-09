@@ -6,6 +6,7 @@ const postcss = require("gulp-postcss");
 const tailwindcss = require("tailwindcss");
 const cleanCSS = require("gulp-clean-css");
 const stripCssComments = require("gulp-strip-css-comments");
+const imagemin = require("gulp-imagemin");
 
 // Copy All php files
 gulp.task("php", function () {
@@ -19,7 +20,15 @@ gulp.task("php", function () {
 
 // TODO: i need to install
 // Optimize Images
-
+gulp.task("optImg", function () {
+  return new Promise(function (resolve, reject) {
+    gulp
+      .src("src/assets/img/*")
+      .pipe(imagemin())
+      .pipe(gulp.dest("./public/assets/img"));
+    resolve();
+  });
+});
 // convert tailwindcss to normal css, autoprefix it, clean it
 gulp.task("styles", function () {
   return new Promise(function (resolve, reject) {
@@ -49,6 +58,7 @@ gulp.task("scripts", function () {
 
 gulp.task("watch", function () {
   return new Promise(function (resolve, reject) {
+    gulp.watch("./src/assets/img/*", gulp.parallel("optImg"));
     gulp.watch("./src/styles/*.css"), gulp.parallel("styles");
     gulp.watch("./src/assets/js/*.js", gulp.parallel("scripts"));
     gulp.watch("./src/components/*.php", gulp.series("php"));
@@ -58,4 +68,7 @@ gulp.task("watch", function () {
   });
 });
 
-gulp.task("default", gulp.parallel("styles", "scripts", "php", "watch"));
+gulp.task(
+  "default",
+  gulp.parallel("styles", "scripts", "php", "optImg", "watch")
+);
