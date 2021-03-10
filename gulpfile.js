@@ -59,7 +59,7 @@ gulp.task("scripts", function () {
 gulp.task("watch", function () {
   return new Promise(function (resolve, reject) {
     gulp.watch("./src/assets/img/*", gulp.parallel("optImg"));
-    gulp.watch("./src/styles/*.css"), gulp.parallel("styles");
+    gulp.watch("./src/styles/*.css"), gulp.series("styles");
     gulp.watch("./src/assets/js/*.js", gulp.parallel("scripts"));
     gulp.watch("./src/components/*.php", gulp.series("php"));
     gulp.watch("./src/pages/*.php", gulp.series("php"));

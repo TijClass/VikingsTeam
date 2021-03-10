@@ -26,6 +26,7 @@
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
     "gulp-postcss": "^9.0.0",
     "gulp-sass": "^4.1.0",
     "gulp-strip-css-comments": "^2.0.0",
@@ -33,7 +34,5 @@
     "postcss": "^8.2.7",
     "tailwindcss": "^2.0.3"
   },
-  "dependencies": {
-    "gulp-imagemin": "^7.1.0"
-  }
+  "dependencies": {}
 }
