@@ -15,7 +15,8 @@
     <?php
     include './pages/main.php';
     ?>
-    
+    <!-- component -->
+   
     <script src="public/assets/js/main.js"></script>
 </body>
 
