@@ -12,11 +12,16 @@
 </head>
 
 <body>
+
     <?php
-    include './pages/main.php';
+        include './components/sidebar.php';
     ?>
-    <!-- component -->
-   
+    <main class="pt-8 sm:pl-24">
+        <?php
+            include './pages/main.php';
+        ?>
+    </main>
+
     <script src="public/assets/js/main.js"></script>
 </body>
 
