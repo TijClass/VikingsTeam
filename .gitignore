@@ -13,4 +13,8 @@ public/
 # some of my testing files *b3ns44d*
 
 test.html
-sidebartest.html 
+sidebartest.html
+
+package-lock.json
+
+index.html
