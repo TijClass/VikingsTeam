@@ -5,7 +5,7 @@
 
   <div class="flex flex-row w-11/12 float-right mt-44">
 
-  <div class="w-4/6">
+    <div class="w-4/6">
       <h1 class="font-black text-white text-3xl sm:text-5xl lg:text-7xl">
         Beautiful Places <br />
         of Morocco
@@ -15,6 +15,18 @@
         Plan your vacation on the beautiful <br />
         places of Morocco
       </p>
+    </div>
+
+    <div class="w-1/6 hidden sm:block h-96 rounded-br-none">
+      <div class="h-44 md:h-56 lg:h-72 " style="background: #rgba(255, 255, 255, 0.15);backdrop-filter: blur(70px);opacity: 0.8;">
+        <p class="text-gray-300 font-medium mt-4 md:text-xl">Top agent</p>
+        <p class="text-white leading-6 mt-6 md:text-2xl lg:text-3xl">
+          Jad lamine <br />
+          guide <br />
+          touristique
+        </p>
+        <p class="mt-8 md:mt-12">dzhc</p>
+      </div>
     </div>
 
 
