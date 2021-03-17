@@ -33,6 +33,5 @@
     "gulp-uglify": "^3.0.2",
     "postcss": "^8.2.7",
     "tailwindcss": "^2.0.3"
-  },
-  "dependencies": {}
+  }
 }
