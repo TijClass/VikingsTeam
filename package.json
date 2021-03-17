@@ -1,37 +1,40 @@
 {
-  "name": "vikingsteam",
-  "version": "1.0.0",
-  "description": "Booking app using PHP",
-  "private": true,
-  "scripts": {
-    "build": "no script"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TijClass/VikingsTeam.git"
-  },
-  "keywords": [
-    "Booking",
-    "app"
-  ],
-  "author": "B3ns44d",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/TijClass/VikingsTeam/issues"
-  },
-  "homepage": "https://github.com/TijClass/VikingsTeam#readme",
-  "devDependencies": {
-    "autoprefixer": "^10.2.5",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-postcss": "^9.0.0",
-    "gulp-sass": "^4.1.0",
-    "gulp-strip-css-comments": "^2.0.0",
-    "gulp-uglify": "^3.0.2",
-    "postcss": "^8.2.7",
-    "tailwindcss": "^2.0.3"
-  }
+    "name": "vikingsteam",
+    "version": "1.0.0",
+    "description": "Booking app using PHP",
+    "private": true,
+    "scripts": {
+        "build": "no script"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TijClass/VikingsTeam.git"
+    },
+    "keywords": [
+        "Booking",
+        "app"
+    ],
+    "author": "B3ns44d",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/TijClass/VikingsTeam/issues"
+    },
+    "homepage": "https://github.com/TijClass/VikingsTeam#readme",
+    "devDependencies": {
+        "autoprefixer": "^10.2.5",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-postcss": "^9.0.0",
+        "gulp-sass": "^4.1.0",
+        "gulp-strip-css-comments": "^2.0.0",
+        "gulp-uglify": "^3.0.2",
+        "postcss": "^8.2.7",
+        "tailwindcss": "^2.0.3"
+    },
+    "dependencies": {
+        "tailwind-scrollbar-hide": "^1.0.3"
+    }
 }

@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="public/styles/main.css" />
     <link rel="icon" href="public/assets/img/favicon.svg">
     <script defer src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" integrity="sha384-vuFJ2JiSdUpXLKGK+tDteQZBqNlMwAjhZ3TvPaDfN9QmbPb7Q8qUpbSNapQev3YF" crossorigin="anonymous"></script>
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="scrollbar-hide">
     <!-- all page -->
     <div class="flex">
         <!-- for sidebar -->
