@@ -8,7 +8,7 @@
      <!--ex-->
       <div class=" w-full col-span-2 rounded overflow-hidden shadow-md	 flex flex-row relative">
         <div class=" w-3/6 ">
-          <img src="https://source.unsplash.com/_AjqGGafofE/400x200" class="h-full w-full object-cover"  alt="couple">
+          <img src="public/assets/img/imag1.jpg" class="h-full w-full object-cover"  alt="couple">
         </div>
 
         <div class="  mx-3  w-3/6 flex flex-col justify-between  ">
