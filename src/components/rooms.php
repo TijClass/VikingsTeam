@@ -25,9 +25,9 @@
        <h2 class=" font-normal ml-6 mt-9"> Hotel Blue Haven</h2>
    <p class="text-left text-gray-600  text-sm px-6 py-6">
 When a hotel guest makes a reservation at your hotel, a quick text message to confirm their reservation will make guests feel confident in their reservations. You can also send out a message the day before your guest arrives.  </p>
-       <span  class=" font-thin  text-gray-600 ml-6 "><i class="fas fa-map-marker-alt">1749 Wleeler Ridge Delaware</i></span>
-   <span class=" block  font-thin  text-gray-600 ml-6 "><i class="fas fa-user">   2 * Guests</i></span>
-   <span class=" block font-thin  ml-6 text-gray-600 "><i class="fas fa-home">  1 * Room</i></span>
+       <span  class=" font-thin  text-gray-600 ml-6 "><i class="fas fa-map-marker-alt"></i>  1749 Wleeler Ridge Delaware</span>
+   <span class=" block  font-thin  text-gray-600 ml-6 "><i class="fas fa-user"></i>   2 * Guests</span>
+   <span class=" block font-thin  ml-6 text-gray-600 "><i class="fas fa-home"></i>  1 * Room</span>
       </div>
 
        <div class=" bg-green-500 text-white text-sm font-bold normal-case rounded-r-lg p-2 absolute top-0 left-0 mt-4">
