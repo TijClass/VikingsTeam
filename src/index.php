@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body class="scrollbar-hide">
     <!-- all page -->
     <div class="flex">
         <!-- for sidebar -->
