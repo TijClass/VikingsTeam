@@ -12,7 +12,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.        </p>
                 </div>
                 <div>
-                    <a href="/" class="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-oceangreen-100 bg-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
+                    <a href="/" class="inline-flex items-center justify-center h-12 px-5 mr-6 font-medium tracking-wide text-oceangreen-100 bg-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
                     Contacts Us
                     </a>
                 </div>
