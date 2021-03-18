@@ -1,8 +1,22 @@
+<!--section rooms-->
 
-
-<section class=" container m-auto min-h-screen ">
- <h1 class="text-center text-5xl">Our rooms</h1>
- <p class=" w-8/12 text-center ml-44">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vel vitae iure qui dolorum maxime alias quibusdam distinctio dolorem dolor accusantium saepe .</p>
+<div   class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+<div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+        <div>
+            <p class="text-green-100 inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-2xl bg-teal-accent-400">
+                features
+            </p>
+        </div>
+        <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+           
+            Our Rooms
+        </h2>
+        <p class="text-base text-gray-700 md:text-lg">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem
+            aperiam,
+            eaque ipsa quae.
+        </p>
+    </div>
   <div class=" min-h-screen w-full   grid lg:grid-cols-5 gap-x-8   gap-4">
     <!-- cartes go here / three 4 cartes-->
 
@@ -26,10 +40,10 @@
        <div>
        <h2 class=" font-normal ml-6 mt-9"> Hotel Blue Haven</h2>
    <p class="text-left text-gray-600  text-sm px-6 py-6">
-When a hotel guest makes a reservation at your hotel, a quick text message to confirm their reservation will make guests feel confident in their reservations. You can also send out a message the day before your guest arrives.  </p>
+When a hotel guest makes a reservation at your hotel, a quick text message to confirm their reservation will make guests feel confident in their reservations. You can also send out a message the day before your guest arrives. You can also send out a message the day before your guest arrives.  </p>
        </div>
     <div>
-    <span  class=" font-thin  text-gray-600 ml-6 "><i class="fas fa-map-marker-alt"></i>  1749 Wleeler Ridge Delaware</span>
+    <span  class=" font-thin  text-sm text-gray-600 ml-6 "><i class="fas fa-map-marker-alt"></i>  1749 Wleeler Ridge Delaware</span>
    <span class=" block  font-thin  text-gray-600 ml-6 py-3 "><i class="fas fa-user"></i>   2 * Guests</span>
    <span class=" block font-thin  ml-6 text-gray-600 "><i class="fas fa-home"></i>  1 * Room</span>
     </div>
@@ -45,7 +59,7 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
 
  <div class="flex  justify-between  pb-2  "> 
 <h5 class="  font-normal  ml-4 text-2xl"> $ 8,500 </h5>
-<button type="submit" name="booking" class=" rounded bg-purple-900 text-white px-6 ">book now</button>
+<button type="submit" name="booking" class=" rounded bg-purple-900 text-white h-8 px-4 ">book now</button>
 </div>
 
         </div>
@@ -76,7 +90,7 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
 
       <div class="flex flex-row justify-between ">
       <h5 class="  font-normal text-xl"> $ 5,500 </h5>
-      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white px-5 ">book now</button>
+      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white h-8 px-4 ">book now</button>
       </div>
 
      </div>
@@ -85,7 +99,7 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
 
    <div class=" h-full   bg-white rounded overflow-hidden shadow-md relative">
     <div class=" h-3/6">
-      <img src="public/assets/img/imag2.jpg" class=" h-full w-full object-cover" alt="couple">
+      <img src="public/assets/img/imag3.jpg" class=" h-full w-full object-cover" alt="couple">
     </div>
     
      <div class=" flex flex-col justify-around h-3/6 p-4">
@@ -106,7 +120,7 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
 
       <div class="flex flex-row justify-between ">
       <h5 class="  font-normal text-xl"> $ 5,500 </h5>
-      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white px-5 ">book now</button>
+      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white h-8 px-4 ">book now</button>
       </div>
 
      </div>
@@ -115,7 +129,7 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
 
    <div class=" h-full   bg-white rounded overflow-hidden shadow-md relative">
     <div class=" h-3/6">
-      <img src="public/assets/img/imag2.jpg" class=" h-full w-full object-cover" alt="couple">
+      <img src="public/assets/img/imag4.jpg" class=" h-full w-full object-cover" alt="couple">
     </div>
     
      <div class=" flex flex-col justify-around h-3/6 p-4">
@@ -136,7 +150,7 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
 
       <div class="flex flex-row justify-between ">
       <h5 class="  font-normal text-xl"> $ 5,500 </h5>
-      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white px-5 ">book now</button>
+      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white h-8 px-4 ">book now</button>
       </div>
 
      </div>
@@ -146,7 +160,7 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
 
    <div class=" h-full   bg-white rounded overflow-hidden shadow-md relative">
     <div class=" h-3/6">
-      <img src="public/assets/img/imag2.jpg" class=" h-full w-full object-cover" alt="couple">
+      <img src="public/assets/img/imag5.jpg" class=" h-full w-full object-cover" alt="couple">
     </div>
     
      <div class=" flex flex-col justify-around h-3/6 p-4">
@@ -167,7 +181,7 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
 
       <div class="flex flex-row justify-between ">
       <h5 class="  font-normal text-xl"> $ 5,500 </h5>
-      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white px-5 ">book now</button>
+      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white h-8 px-4 ">book now</button>
       </div>
 
      </div>
@@ -176,7 +190,7 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
 
    <div class=" h-full   bg-white rounded overflow-hidden shadow-md relative">
     <div class=" h-3/6">
-      <img src="public/assets/img/imag2.jpg" class=" h-full w-full object-cover" alt="couple">
+      <img src="public/assets/img/imag6.jpg" class=" h-full w-full object-cover" alt="couple">
     </div>
     
      <div class=" flex flex-col justify-around h-3/6 p-4">
@@ -197,7 +211,7 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
 
       <div class="flex flex-row justify-between ">
       <h5 class="  font-normal text-xl"> $ 5,500 </h5>
-      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white px-5 ">book now</button>
+      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white h-8 px-4 ">book now</button>
       </div>
 
      </div>
@@ -206,7 +220,7 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
 
    <div class=" h-full   bg-white rounded overflow-hidden shadow-md relative">
     <div class=" h-3/6">
-      <img src="public/assets/img/imag2.jpg" class=" h-full w-full object-cover" alt="couple">
+      <img src="public/assets/img/imag7.jpg" class=" h-full w-full object-cover" alt="couple">
     </div>
     
      <div class=" flex flex-col justify-around h-3/6 p-4">
@@ -227,7 +241,7 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
 
       <div class="flex flex-row justify-between ">
       <h5 class="  font-normal text-xl"> $ 5,500 </h5>
-      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white px-5 ">book now</button>
+      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white h-8 px-4 ">book now</button>
       </div>
 
      </div>
@@ -236,7 +250,7 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
 
    <div class=" h-full   bg-white rounded overflow-hidden shadow-md relative">
     <div class=" h-3/6">
-      <img src="public/assets/img/imag2.jpg" class=" h-full w-full object-cover" alt="couple">
+      <img src="public/assets/img/imag8.jpg" class=" h-full w-full object-cover" alt="couple">
     </div>
     
      <div class=" flex flex-col justify-around h-3/6 p-4">
@@ -257,7 +271,7 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
 
       <div class="flex flex-row justify-between ">
       <h5 class="  font-normal text-xl"> $ 5,500 </h5>
-      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white px-5 ">book now</button>
+      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white h-8 px-4 ">book now</button>
       </div>
 
      </div>
@@ -266,7 +280,7 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
 
    <div class=" h-full   bg-white rounded overflow-hidden shadow-md relative">
     <div class=" h-3/6">
-      <img src="public/assets/img/imag2.jpg" class=" h-full w-full object-cover" alt="couple">
+      <img src="public/assets/img/imag1.jpg" class=" h-full w-full object-cover" alt="couple">
     </div>
     
      <div class=" flex flex-col justify-around h-3/6 p-4">
@@ -287,12 +301,15 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
 
       <div class="flex flex-row justify-between ">
       <h5 class="  font-normal text-xl"> $ 5,500 </h5>
-      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white px-5 ">book now</button>
+      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white h-8 px-4 ">book now</button>
       </div>
 
      </div>
    </div>
 
+
+</div>
+</div>
 
 
 
