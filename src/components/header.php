@@ -18,7 +18,7 @@
     </div>
 
     <div class="w-1/6 hidden sm:block h-96 rounded-br-none">
-      <div class="h-44 md:h-56 lg:h-72 " style="background: #rgba(255, 255, 255, 0.15);backdrop-filter: blur(70px);opacity: 0.8;">
+      <div class="h-44 md:h-56 lg:h-72 " style="background: rgba(255, 255, 255, 0.15);backdrop-filter: blur(70px);opacity: 0.8;">
         <p class="text-gray-300 font-medium mt-4 md:text-xl">Top agent</p>
         <p class="text-white leading-6 mt-6 md:text-2xl lg:text-3xl">
           Jad lamine <br />
@@ -27,6 +27,9 @@
         </p>
         <p class="mt-8 md:mt-12">dzhc</p>
       </div>
+    </div>
+
+    <div class="w-1/6 hidden md:block h-44 mt-4 md:h-56 lg:h-72 sm:block" style="background-image: url('https://lemagazinedumanager.com/wp-content/uploads/guide-touristique.jpg'); background-size: cover; background-repeat:no-repeat;background-position:center;">
     </div>
 
 
