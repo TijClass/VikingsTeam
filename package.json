@@ -33,11 +33,8 @@
     "gulp-uglify": "^3.0.2",
     "postcss": "^8.2.7",
     "tailwindcss": "^2.0.3"
-<<<<<<< HEAD
-=======
   },
   "dependencies": {
     "tailwind-scrollbar-hide": "^1.0.3"
->>>>>>> cbc1dbe0e4a49f3c0a7d6d896ebc3d29a620d56c
   }
 }
