@@ -17,11 +17,11 @@
             eaque ipsa quae.
         </p>
     </div>
-  <div class=" min-h-screen w-full   grid lg:grid-cols-5 gap-x-8   gap-4">
-    <!-- cartes go here / three 4 cartes-->
+  <div class=" h-5/6 w-full   grid lg:grid-cols-4  gap-7  ">
+    <!-- cartes go here / three 3 cartes-->
 
      <!--start large carte-->
-      <div class=" w-full col-span-2 rounded overflow-hidden shadow-md	 flex flex-row relative">
+      <div class=" h-full col-span-2 rounded overflow-hidden shadow-md	 flex flex-row relative">
         <div class=" w-3/6 ">
           <img src="public/assets/img/imag1.jpg" class="h-full w-full object-cover"  alt="couple">
         </div>
@@ -40,7 +40,7 @@
        <div>
        <h2 class=" font-normal ml-6 mt-9"> Hotel Blue Haven</h2>
    <p class="text-left text-gray-600  text-sm px-6 py-6">
-When a hotel guest makes a reservation at your hotel, a quick text message to confirm their reservation will make guests feel confident in their reservations. You can also send out a message the day before your guest arrives. You can also send out a message the day before your guest arrives.  </p>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus soluta quis quae, consequuntur dolorum reprehenderit quidem expedita rem ea hic voluptas esse ipsam quod pariatur unde assumenda doloremque repudiandae blanditiis.   </p>
        </div>
     <div>
     <span  class=" font-thin  text-sm text-gray-600 ml-6 "><i class="fas fa-map-marker-alt"></i>  1749 Wleeler Ridge Delaware</span>
@@ -57,9 +57,13 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
   <span class="   line-through ml-6 text-gray-600   ">$ 10,500</span>
 </div>
 
- <div class="flex  justify-between  pb-2  "> 
+ <div class="flex  justify-between    "> 
 <h5 class="  font-normal  ml-4 text-2xl"> $ 8,500 </h5>
-<button type="submit" name="booking" class=" rounded bg-purple-900 text-white h-8 px-4 ">book now</button>
+
+                    <a href="/" class="inline-flex items-center justify-center h-8 px-5  font-medium tracking-wide  text-white bg-purple-900 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
+                    Book now
+                    </a>
+                
 </div>
 
         </div>
@@ -67,37 +71,9 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
 
       <!--end large carte-->
 
- <div class=" h-full   bg-white rounded overflow-hidden shadow-md relative">
-    <div class=" h-3/6">
-      <img src="public/assets/img/imag2.jpg" class=" h-full w-full object-cover" alt="couple">
-    </div>
+
     
-     <div class=" flex flex-col justify-around h-3/6 p-4">
-     <div >
-      <p class=" text-black font-bold mb-4">LUX* Belle Mare </p>
-      <span  class=" font-thin text-gray-600 text-xs  "><i class="fas fa-map-marker-alt"> </i>  1749 Wleeler Ridge Delaware</span>
-      <span class=" block  font-thin text-gray-600 text-xs py-3 "><i class="fas fa-user"> </i>  2 * Guests</span>
-      <span class=" block font-thin text-gray-600 text-xs  "><i class="fas fa-home"> </i>  1 * Room</span>
-      </div>
-
-     <div class=" bg-green-500 text-white text-sm  normal-case rounded-r-lg p-2 absolute top-0 left-0  mt-4">
-     <span>Flash Offer</span>
-     </div>
-
-     <div >
-     <span class=" font-thin text-xs text-gray-600  line-through  ">$ 8,500</span>
-     </div>
-
-      <div class="flex flex-row justify-between ">
-      <h5 class="  font-normal text-xl"> $ 5,500 </h5>
-      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white h-8 px-4 ">book now</button>
-      </div>
-
-     </div>
-   </div>
-
-
-   <div class=" h-full   bg-white rounded overflow-hidden shadow-md relative">
+   <div class=" h-full  bg-white rounded overflow-hidden shadow-md relative">
     <div class=" h-3/6">
       <img src="public/assets/img/imag3.jpg" class=" h-full w-full object-cover" alt="couple">
     </div>
@@ -120,7 +96,9 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
 
       <div class="flex flex-row justify-between ">
       <h5 class="  font-normal text-xl"> $ 5,500 </h5>
-      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white h-8 px-4 ">book now</button>
+       <a href="/" class="inline-flex items-center justify-center h-8 px-5  font-medium tracking-wide  text-white bg-purple-900 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
+                    Book now
+                    </a>
       </div>
 
      </div>
@@ -150,45 +128,20 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
 
       <div class="flex flex-row justify-between ">
       <h5 class="  font-normal text-xl"> $ 5,500 </h5>
-      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white h-8 px-4 ">book now</button>
+      <a href="/" class="inline-flex items-center justify-center h-8 px-5  font-medium tracking-wide  text-white bg-purple-900 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
+                    Book now
+                    </a>
       </div>
 
      </div>
    </div>
 
-   <!--last 5 ccards -->
+   <!--last 4 ccards -->
 
-   <div class=" h-full   bg-white rounded overflow-hidden shadow-md relative">
-    <div class=" h-3/6">
-      <img src="public/assets/img/imag5.jpg" class=" h-full w-full object-cover" alt="couple">
-    </div>
-    
-     <div class=" flex flex-col justify-around h-3/6 p-4">
-     <div >
-      <p class=" text-black font-bold mb-4">LUX* Belle Mare </p>
-      <span  class=" font-thin text-gray-600 text-xs  "><i class="fas fa-map-marker-alt"> </i>  1749 Wleeler Ridge Delaware</span>
-      <span class=" block  font-thin text-gray-600 text-xs py-3 "><i class="fas fa-user"> </i>  2 * Guests</span>
-      <span class=" block font-thin text-gray-600 text-xs  "><i class="fas fa-home"> </i>  1 * Room</span>
-      </div>
+  
 
-     <div class=" bg-green-500 text-white text-sm  normal-case rounded-r-lg p-2 absolute top-0 left-0  mt-4">
-     <span>Flash Offer</span>
-     </div>
-
-     <div >
-     <span class=" font-thin text-xs text-gray-600  line-through  ">$ 8,500</span>
-     </div>
-
-      <div class="flex flex-row justify-between ">
-      <h5 class="  font-normal text-xl"> $ 5,500 </h5>
-      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white h-8 px-4 ">book now</button>
-      </div>
-
-     </div>
-   </div>
-
-
-   <div class=" h-full   bg-white rounded overflow-hidden shadow-md relative">
+   
+   <div class="h-full   bg-white rounded overflow-hidden shadow-md relative">
     <div class=" h-3/6">
       <img src="public/assets/img/imag6.jpg" class=" h-full w-full object-cover" alt="couple">
     </div>
@@ -197,7 +150,7 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
      <div >
       <p class=" text-black font-bold mb-4">LUX* Belle Mare </p>
       <span  class=" font-thin text-gray-600 text-xs  "><i class="fas fa-map-marker-alt"> </i>  1749 Wleeler Ridge Delaware</span>
-      <span class=" block  font-thin text-gray-600 text-xs py-3 "><i class="fas fa-user"> </i>  2 * Guests</span>
+      <span class=" block  font-thin text-gray-600 text-xs py-4 "><i class="fas fa-user"> </i>  2 * Guests</span>
       <span class=" block font-thin text-gray-600 text-xs  "><i class="fas fa-home"> </i>  1 * Room</span>
       </div>
 
@@ -205,17 +158,21 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
      <span>Flash Offer</span>
      </div>
 
-     <div >
+     <div class="pt-4" >
      <span class=" font-thin text-xs text-gray-600  line-through  ">$ 8,500</span>
      </div>
 
-      <div class="flex flex-row justify-between ">
+      <div class="flex flex-row justify-between  pt-4">
       <h5 class="  font-normal text-xl"> $ 5,500 </h5>
-      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white h-8 px-4 ">book now</button>
+      <a href="/" class="inline-flex items-center justify-center h-8 px-5  font-medium tracking-wide  text-white bg-purple-900 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
+                    Book now
+                    </a>
       </div>
 
      </div>
    </div>
+
+
 
 
    <div class=" h-full   bg-white rounded overflow-hidden shadow-md relative">
@@ -227,7 +184,7 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
      <div >
       <p class=" text-black font-bold mb-4">LUX* Belle Mare </p>
       <span  class=" font-thin text-gray-600 text-xs  "><i class="fas fa-map-marker-alt"> </i>  1749 Wleeler Ridge Delaware</span>
-      <span class=" block  font-thin text-gray-600 text-xs py-3 "><i class="fas fa-user"> </i>  2 * Guests</span>
+      <span class=" block  font-thin text-gray-600 text-xs py-4 "><i class="fas fa-user"> </i>  2 * Guests</span>
       <span class=" block font-thin text-gray-600 text-xs  "><i class="fas fa-home"> </i>  1 * Room</span>
       </div>
 
@@ -235,17 +192,21 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
      <span>Flash Offer</span>
      </div>
 
-     <div >
+     <div class="pt-4" >
      <span class=" font-thin text-xs text-gray-600  line-through  ">$ 8,500</span>
      </div>
 
-      <div class="flex flex-row justify-between ">
+      <div class="flex flex-row justify-between pt-4 ">
       <h5 class="  font-normal text-xl"> $ 5,500 </h5>
-      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white h-8 px-4 ">book now</button>
+      <a href="/" class="inline-flex items-center justify-center h-8 px-5  font-medium tracking-wide  text-white bg-purple-900 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
+                    Book now
+                    </a>
       </div>
 
      </div>
    </div>
+
+
 
 
    <div class=" h-full   bg-white rounded overflow-hidden shadow-md relative">
@@ -257,7 +218,7 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
      <div >
       <p class=" text-black font-bold mb-4">LUX* Belle Mare </p>
       <span  class=" font-thin text-gray-600 text-xs  "><i class="fas fa-map-marker-alt"> </i>  1749 Wleeler Ridge Delaware</span>
-      <span class=" block  font-thin text-gray-600 text-xs py-3 "><i class="fas fa-user"> </i>  2 * Guests</span>
+      <span class=" block  font-thin text-gray-600 text-xs py-4 "><i class="fas fa-user"> </i>  2 * Guests</span>
       <span class=" block font-thin text-gray-600 text-xs  "><i class="fas fa-home"> </i>  1 * Room</span>
       </div>
 
@@ -265,17 +226,21 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
      <span>Flash Offer</span>
      </div>
 
-     <div >
+     <div class=" pt-4" >
      <span class=" font-thin text-xs text-gray-600  line-through  ">$ 8,500</span>
      </div>
 
-      <div class="flex flex-row justify-between ">
+      <div class="flex flex-row justify-between pt-4 ">
       <h5 class="  font-normal text-xl"> $ 5,500 </h5>
-      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white h-8 px-4 ">book now</button>
+      <a href="/" class="inline-flex items-center justify-center h-8 px-5  font-medium tracking-wide  text-white bg-purple-900 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
+                    Book now
+                    </a>
       </div>
 
      </div>
    </div>
+
+   
 
 
    <div class=" h-full   bg-white rounded overflow-hidden shadow-md relative">
@@ -287,7 +252,7 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
      <div >
       <p class=" text-black font-bold mb-4">LUX* Belle Mare </p>
       <span  class=" font-thin text-gray-600 text-xs  "><i class="fas fa-map-marker-alt"> </i>  1749 Wleeler Ridge Delaware</span>
-      <span class=" block  font-thin text-gray-600 text-xs py-3 "><i class="fas fa-user"> </i>  2 * Guests</span>
+      <span class=" block  font-thin text-gray-600 text-xs py-4 "><i class="fas fa-user"> </i>  2 * Guests</span>
       <span class=" block font-thin text-gray-600 text-xs  "><i class="fas fa-home"> </i>  1 * Room</span>
       </div>
 
@@ -295,13 +260,15 @@ When a hotel guest makes a reservation at your hotel, a quick text message to co
      <span>Flash Offer</span>
      </div>
 
-     <div >
+     <div class=" pt-4" >
      <span class=" font-thin text-xs text-gray-600  line-through  ">$ 8,500</span>
      </div>
 
-      <div class="flex flex-row justify-between ">
+      <div class="flex flex-row justify-between  pt-4 ">
       <h5 class="  font-normal text-xl"> $ 5,500 </h5>
-      <button type="submit" name="booking" class=" rounded bg-purple-900 text-white h-8 px-4 ">book now</button>
+      <a href="/" class="inline-flex items-center justify-center h-8 px-5  font-medium tracking-wide  text-white bg-purple-900 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
+                    Book now
+                    </a>
       </div>
 
      </div>
