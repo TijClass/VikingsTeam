@@ -1,10 +1,10 @@
 <!--section booking-->
 
 <!--part text and bottun-->
-<div class=" bg-green-400 ">
-    <div class="  px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div class=" min-h-full grid grid-cols-2  gap-2 w-full ">
-         <div class="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
+<div class=" bgME ">
+    <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div class=" grid grid-cols-2  gap-10 w-full h-96">
+            <div class="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
                 <div class="max-w-xl mb-6">
                     <h2 class="max-w-lg mb-6 font-sans text-xs font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
                         Lorem ipsum <br> dolor sit amet
@@ -20,23 +20,23 @@
                 </div>
             </div>
 
-<!--part of images-->
-<div class=" w-ff h-full  relative">
-     <div class=" w-80 h-full absolute bottom-4 left-32 bg-white bg-opacity-25  rounded">
-      <div class="w-60 absolute border-8 top-8 right-32 rounded border-white border-opacity-25">
-        <img src="https://source.unsplash.com/_AjqGGafofE/400x200" class=" border-8 border-white rounded" >
-      </div>
-      <div class="w-60 absolute border-8 top-24 left-7 rounded border-white border-opacity-25">
-        <img src="https://source.unsplash.com/_AjqGGafofE/400x200" class=" h-36 object-cover  border-8 border-white rounded" >
-      </div>
-      <div class=" absolute border-8 right-1 top-4 rounded border-white border-opacity-25">
-        <img src="https://source.unsplash.com/_AjqGGafofE/400x200" class=" w-32 h-40 object-cover  border-8 border-white rounded" >
-      </div>
+            <!--part of images-->
+            <div class=" w-ff h-full  relative">
+                <div class=" w-80 h-56 absolute bottom-24 left-32 bg-white bg-opacity-25  rounded">
+                    <div class="w-60 absolute border-8 top-8 right-32 rounded border-white border-opacity-25">
+                        <img src="https://source.unsplash.com/_AjqGGafofE/400x200" class=" border-8 border-white rounded">
+                    </div>
+                    <div class="w-60 absolute border-8 top-24 left-7 rounded border-white border-opacity-25">
+                        <img src="https://source.unsplash.com/_AjqGGafofE/400x200" class=" h-36 object-cover  border-8 border-white rounded">
+                    </div>
+                    <div class=" absolute border-8 right-1 top-4 rounded border-white border-opacity-25">
+                        <img src="https://source.unsplash.com/_AjqGGafofE/400x200" class=" w-32 h-40 object-cover  border-8 border-white rounded">
+                    </div>
 
-     </div>
+                </div>
 
-</div>
+            </div>
 
-      </div>
+        </div>
     </div>
 </div>
