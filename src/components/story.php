@@ -21,13 +21,13 @@
             </div>
 
 <!--part of images-->
-<div class=" w-ff h-full relative">
-     <div class=" w-80 h-full absolute left-10 bg-white bg-opacity-25  rounded">
-      <div class="w-60 absolute border-8 top-14 right-32 rounded border-white border-opacity-25">
+<div class=" w-ff h-full  relative">
+     <div class=" w-80 h-full absolute bottom-4 left-32 bg-white bg-opacity-25  rounded">
+      <div class="w-60 absolute border-8 top-8 right-32 rounded border-white border-opacity-25">
         <img src="https://source.unsplash.com/_AjqGGafofE/400x200" class=" border-8 border-white rounded" >
       </div>
-      <div class="w-60 absolute border-8 top-32 left-16 rounded border-white border-opacity-25">
-        <img src="https://source.unsplash.com/_AjqGGafofE/400x200" class=" h-40 object-cover  border-8 border-white rounded" >
+      <div class="w-60 absolute border-8 top-24 left-7 rounded border-white border-opacity-25">
+        <img src="https://source.unsplash.com/_AjqGGafofE/400x200" class=" h-36 object-cover  border-8 border-white rounded" >
       </div>
       <div class=" absolute border-8 right-1 top-4 rounded border-white border-opacity-25">
         <img src="https://source.unsplash.com/_AjqGGafofE/400x200" class=" w-32 h-40 object-cover  border-8 border-white rounded" >
