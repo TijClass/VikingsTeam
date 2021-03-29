@@ -4,7 +4,7 @@
   "description": "Booking app using PHP",
   "private": true,
   "scripts": {
-    "build": "no script"
+    "start": "gulp & php -S localhost:8081/src"
   },
   "repository": {
     "type": "git",
