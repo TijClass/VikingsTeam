@@ -6,7 +6,7 @@ const postcss = require("gulp-postcss");
 const tailwindcss = require("tailwindcss");
 const cleanCSS = require("gulp-clean-css");
 const stripCssComments = require("gulp-strip-css-comments");
-const imagemin = require("gulp-imagemin");
+// const imagemin = require("gulp-imagemin");
 
 // Copy All php files
 gulp.task("php", function () {
@@ -24,7 +24,7 @@ gulp.task("optImg", function () {
   return new Promise(function (resolve, reject) {
     gulp
       .src("src/assets/img/*")
-      .pipe(imagemin())
+      // .pipe(imagemin())
       .pipe(gulp.dest("./public/assets/img"));
     resolve();
   });
