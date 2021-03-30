@@ -4,7 +4,7 @@
   "description": "Booking app using PHP",
   "private": true,
   "scripts": {
-    "build": "no script"
+    "start": "gulp & php -S localhost:8081/src"
   },
   "repository": {
     "type": "git",
@@ -34,5 +34,7 @@
     "postcss": "^8.2.7",
     "tailwindcss": "^2.0.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "tailwind-scrollbar-hide": "^1.0.3"
+  }
 }

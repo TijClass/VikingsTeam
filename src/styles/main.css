@@ -5,3 +5,10 @@
     rgba(35, 184, 153, 0.81) -0.66%
   );
 }
+/* Section Gallery Background Color */
+.bgME {
+  background: linear-gradient(
+    249.78deg,
+    #7EB79E -0.64%,
+    rgba(35, 184, 153, 0.81) 103.6%);
+}
