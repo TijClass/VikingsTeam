@@ -13,5 +13,4 @@ function connectdb()
     if (!$conndb) return false;
     return $conn;
 }
-connectdb();
 ?>
