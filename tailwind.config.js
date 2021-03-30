@@ -3,6 +3,9 @@ const colors = require("tailwindcss/colors");
 module.exports = {
   theme: {
     extend: {
+      backgroundImage: (theme) => ({
+        "right-bg": "url('./src/assets/img/blob-haikei.svg')",
+      }),
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
       },
