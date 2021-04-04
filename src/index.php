@@ -18,7 +18,7 @@ error_reporting(E_ALL);
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="public/assets/js/main.js" defer></script>
+    <script src="src/assets/js/script.js" defer></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script> -->
     <script src="public/assets/js/jquery.cookie.js" defer></script>
 
