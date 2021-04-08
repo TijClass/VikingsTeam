@@ -27,7 +27,7 @@
                         <img src="src/assets/img/booking1.jpg" class=" border-8 border-white rounded">
                     </div>
                     <div class="w-60 absolute border-8 top-24 left-7 rounded border-white border-opacity-25">
-                        <img src="src/assets/img/booking2.jpg" class=" h-36 object-cover  border-8 border-white rounded">
+                        <img src="src/assets/img/booking2.jpg" class=" h-40 object-cover  border-8 border-white rounded">
                     </div>
                     <div class=" absolute border-8 right-1 top-4 rounded border-white border-opacity-25">
                         <img src="src/assets/img/booking3.jpg" class=" w-32 h-40 object-cover  border-8 border-white rounded">
@@ -76,7 +76,7 @@
         <!-- footer -->
         <div class="absolute bottom-0 left-0 px-4 py-3 border-t border-gray-200 w-full flex justify-end items-center gap-3">
 
-            <button class="bg-green-500 hover:bg-green-600 px-4 py-2 rounded text-white focus:outline-none"> <a href="src/components/payment.php"> Next</a></button>
+            <button class="bg-green-500 hover:bg-green-600 px-4 py-2 rounded text-white focus:outline-none"> <a href="http://localhost:8081/src/pages/payment.php"> Next</a></button>
         </div>
     </div>
 
