@@ -6,3 +6,4 @@ include './components/story.php';
 include './components/rooms.php';
 include './components/gallery.php';
 include './components/footer.php';
+

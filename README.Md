@@ -73,3 +73,20 @@ if you want to work with for convert tailwind  use this: `gulp styles`
 
 check [gulpfile.js](./gulpfile.js) for more info about it
 
+
+
+## to start
+
+run this project on port 8081 to avoid any problems
+
+```bash 
+
+php -S localhost:8081
+
+```
+
+
+runing path is `/src`
+
+so run this `http://localhost:8081/src`
+
